@@ -28,7 +28,7 @@ void Lista::imprimir() {
 	while (aux != NULL)
 	{
 		cout << "Carne: " << aux->getCarne() << " Nombre: " << aux->getNombre()<<endl;
-		aux = aux->getSiguiente;
+		aux = aux->getSiguiente();
 	}
 
 }
